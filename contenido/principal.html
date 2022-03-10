@@ -10,10 +10,16 @@
         
     </head>
 <body>
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--CABECERO-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
     <header class="container-fluid bg-primary d-flex justify-content-center">
         <p class="text-light mb-0 p-2 fs-5">CUTTING</p>
     </header>
 
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--MENÚ ADAPTABLE PARA  MÓVILES, TABLET Y ORDENADORES-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -30,7 +36,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                        <a class="nav-link active text-primary" aria-current="page" href="index.html"><strong>INICIO</strong></a>
                     </li>
 
                     <li class="nav-item">
@@ -52,7 +58,10 @@
             </div>
         </div>
     </nav>
-
+    
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <!--CARUSEL DE IMÁGENES-->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,16 +71,19 @@
 
         <div class="carousel-inner"  data-bs-interval="3000">
           <div class="carousel-item active">
-            <img src="./img/mujer.jpg" class="d-block w-100" alt="Oración Cartel 2022">
+            <img src="./img/mujer.jpg" class="d-block w-100" alt="Cartel">
           </div>
           <div class="carousel-item" data-bs-interval="3000"> 
             <img src="./img/mujer2.jpg" class="d-block w-100" alt="Cartel">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="./img/hombre.jpg" class="d-block w-100" alt="Milagros">
+            <img src="./img/hombre.jpg" class="d-block w-100" alt="Cartel">
           </div>
         </div>
 
+        <!--------------------------------------------------------------------------------------------------------------------------------->
+        <!--BOTONES DEL CARUSEL-->
+        <!--------------------------------------------------------------------------------------------------------------------------------->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -82,6 +94,9 @@
         </button>
       </div>
 
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--INCIO DEL CONTENIDO-->
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------->
       <section class="w-50 mx-auto text-center pt-5" id="intro">
           <h1 class="p-3 fs-2 border-top border-3">La red Social que utilizan los programadores,<span class="text-primary p-2">Cutting</span></h1>
           <p><span  class="text-primary">Cutting</span> es una red social en las que podrás compartir tus dudas y tu día a día dentro de
@@ -89,6 +104,9 @@
             compartir tus conocimientos con aquellos que han solicitado ayuda</p>
       </section>
 
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--COLUMNAS CON LOS ICONOS-->
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------->
       <section class="container-fluid">
           <div class="row w-75 mx-auto my-5 columna-1">
               <div class="col-sm d-flex justify-content-start">
@@ -96,19 +114,43 @@
                   height="160">
                   <div>
                       <h3 class="fs-5 mt-4 px-4 pb-1">¿Cómo se utiliza?</h3>
-                      <p class="px-4">Es muy sencillo, haz foto y ¡Súbelo!, todo el mundo te evidiará por lo cool que eres</p>
+                      <p class="px-4">Es muy sencillo, haz foto y ¡Súbelo!, todo el mundo te evidiará por lo cool que eres, además de dar 
+                          respuestas a las dudas de los demás usuarios
+                      </p>
                   </div>
               </div>
               <div class="col-sm d-flex justify-content-start">
-                <img src="./img/movil.png" alt="El Huerto" width="180"
+                <img src="./img/movil.png" alt="compartir" width="180"
                 height="160">
                 <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">¿Cómo se utiliza?</h3>
-                    <p px-4">Es muy sencillo, haz una foto y ¡Súbelo!, todo el mundo te evidiará por lo cool que eres</p>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">¿Por qué utilizar Cutting?</h3>
+                    <p class="px-4">Es seguro, divertido, además de mostrarsele al mundo lo que eres capaz. Tus datos estarán seguros con
+                        nosotros.
+                    </p>
                 </div>
             </div>
           </div>
+
+          <div class="row w-75 mx-auto my-5 columna-1">
+            <div class="col-sm d-flex justify-content-start">
+              <img src="./img/empresa.png" alt="compartir" width="180"
+              height="160">
+              <div>
+                  <h3 class="fs-sm mt-4 px-4 pb-1">Las Empresas llegan a tí</h3>
+                  <p class="px-4">Con Cutting las empresas pueden contactarte y todo ¡Por responder las dudas correctamente!
+                      Se fijarán en tu perfil y se pondrán en contacto contigo. No pierdas la oportunidad.
+                  </p>
+              </div>
+          </div>
+        </div>
       </section>
+
+      <section class="w-50 mx-right text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Utilizar Cutting tienen sus<span class="text-primary p-2">Cutting</span></h1>
+        <p class="p-3"><span  class="text-primary p-3">Ventajas</span> es una red social en las que podrás compartir tus dudas y tu día a día dentro de
+          esta magnífica profesión en la que nunca podrás salir, además de que podrás
+          compartir tus conocimientos con aquellos que han solicitado ayuda</p>
+    </section>
     
 </body>
 </html>
