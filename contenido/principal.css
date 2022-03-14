@@ -1,4 +1,3 @@
-
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -15,6 +14,9 @@ body{
 }
 .carousel-inner{
     max-height: 39rem ;
+}
+.navbar{
+    width: 100%;
 }
 
 @media (max-width:768px){
