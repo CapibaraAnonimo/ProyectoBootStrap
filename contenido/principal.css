@@ -18,6 +18,9 @@ body{
 .navbar{
     width: 100%;
 }
+footer{
+    width: 100%;
+}
 
 @media (max-width:768px){
     #intro, #informacion{
