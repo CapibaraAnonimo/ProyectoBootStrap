@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 239, 255);
+    background: linear-gradient(to right, rgb(160, 217, 253), rgb(72, 154, 248) );
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    background-image: url(./img/formulario_imagen.png);
+    background-position: center center;
+    
+}
