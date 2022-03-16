@@ -217,22 +217,38 @@
                     <ul class="list-unstyled d-flex flex-row justify-content-center">
                       <li>
                         <a class="text-white px-2" href="https://es-es.facebook.com/">
+<<<<<<< HEAD
+                          <img src="../img/facebook.png"  height="50px" width="50px" alt="">
+=======
                           <img src="./img/facebook.png"  height="50px" width="50px" alt="facebook">
+>>>>>>> 65ace309aff03d29b50a55c52f8f66479865c499
                         </a>
                       </li>
                       <li>
                         <a class="text-white px-2" href="https://www.instagram.com/?hl=es">
+<<<<<<< HEAD
+                          <img src="../img/instagram.png"  height="50px" width="50px" alt="">
+=======
                           <img src="./img/instagram.png"  height="50px" width="50px" alt="instagram">
+>>>>>>> 65ace309aff03d29b50a55c52f8f66479865c499
                         </a>
                       </li>
                       <li>
                         <a class="text-white ps-2" href="https://www.youtube.com/t/restricted_access?blocked=4">
+<<<<<<< HEAD
+                          <img src="../img/yt.png"  height="50px" width="50px" alt="">
+=======
                           <img src="./img/yt.png"  height="50px" width="50px" alt="youtube">
+>>>>>>> 65ace309aff03d29b50a55c52f8f66479865c499
                         </a>
                       </li>
                       <li>
                         <a class="text-white ps-2" href="https://twitter.com/?lang=es">
+<<<<<<< HEAD
+                          <img src="../img/tuenti.png" height="50px" width="50px" alt="">
+=======
                           <img src="./img/tuenti.png" height="50px" width="50px" alt="twitter">
+>>>>>>> 65ace309aff03d29b50a55c52f8f66479865c499
                         </a>
                       </li>
                     </ul>
