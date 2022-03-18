@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../principal.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./usuario.css'>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--CABECERO-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-5">TAINDER</p>
+    </header>
+
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--MENÚ ADAPTABLE PARA  MÓVILES, TABLET Y ORDENADORES-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-light bg-light p-3 sticky-top" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fx-bold"><img src="../img/logo.png" width="35" height="35" alt=""></span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page"
+                            href="index.html"><strong>INICIO</strong></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registrarse/Iniciar Sesion</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contenido 1</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contenido 2</a>
+                    </li>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="email">
+                        <button class="btn btn-primary btn-primary-outline btn-outline-success"
+                            type="button">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--Foto de usuario e información-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid mx-auto row mt-4">
+        <div class="col-5">
+            <img src="../img/Antonio.jpg" class="rounded-circle fotoPerfil mx-auto border border-5 border-light" alt="foto de perfil">
+        </div>
+        <div class="col-auto mx-auto my-auto pb-5">
+            <h1 class="mt-1">
+                JMasterSlaves
+            </h1>
+            <p class="text-left mt-5 fs-3 ">
+                Cosas Cosas Cosas Cosas Cosas Cosas <br>
+                Cosas Cosas Cosas Cosas <br>
+                Cosas Cosas Cosas Cosas Cosas <br>
+                Cosas Cosas <br>
+                Cosas Cosas Cosas <br>
+            </p>
+            <div class="">
+                <!--
+                <p class="text-left">
+                    Cosas Cosas Cosas Cosas Cosas Cosas
+                </p>
+                <p class="text-left">
+                    Cosas Cosas Cosas Cosas
+                </p>
+                <p class="text-left">
+                    Cosas Cosas Cosas Cosas Cosas
+                </p>
+                <p class="text-left">
+                    Cosas Cosas
+                </p>
+                <p class="text-left">
+                    Cosas Cosas Cosas
+                </p> -->
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <!--Lista de fotos-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
+
+    <h2 class="text-center fs-1 mb-0 border-bottom border-1">
+        Fotos
+    </h2>
+
+    <div class="d-flex flex-wrap bg-light pb-5">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+        <img src="../img/Antonio.jpg" class="fotos mx-auto mt-4" alt="foto">
+    </div>
+
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--FOOTER-->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="contens my-5 w-100" id="footer">
+
+        <footer class="bg-secondary text-center text-lg-start text-white w-100" id="footer">
+            <div class="container p-4">
+
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                            style="width: 150px; height: 150px;">
+                            <img src="../img/logo.png" height="70" alt="logo" loading="lazy" />
+                        </div>
+
+                        <p class="text-center">Tainder Company, tu profesión compartido con confianza </p>
+
+                        <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                        <!--LOGOS DE LAS OTRAS REDES SOCIALES FOOTER-->
+                        <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li>
+                                <a class="text-white px-2" href="https://es-es.facebook.com/">
+                                    <img src="../img/facebook.png" height="50px" width="50px" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white px-2" href="https://www.instagram.com/?hl=es">
+                                    <img src="../img/instagram.png" height="50px" width="50px" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white ps-2" href="https://www.youtube.com/t/restricted_access?blocked=4">
+                                    <img src="../img/yt.png" height="50px" width="50px" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white ps-2" href="https://twitter.com/?lang=es">
+                                    <img src="../img/tuenti.png" height="50px" width="50px" alt="">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <!--------------------------------------------------------------------------------------------------------->
+                    <!--COLUMNAS DEL FOOTER-->
+                    <!---------------------------------------------------------------------------------------------------------->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Tutoriales</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Como subir foto</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Como subir dudas</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Como responder dudas</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Contacto</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Móvil: 123456789</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Fijo: 123456789</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Email:
+                                    tainder@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Empresas Colaboradoras</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p><i class="fas fa-map-marker-alt pe-2"></i>Netflix</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone pe-2"></i>Youtube</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope pe-2 mb-0"></i>Sony</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2022 Copyright
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
